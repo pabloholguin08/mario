@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dibujo2">
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:id="@+id/caja1"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja2"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja3"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja3"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja4"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja4"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja5"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja6"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja7"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja3"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja8"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja4"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja9"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja5"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja10"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja10"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja11"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/caja6"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja12"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja13"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja13"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja14"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja14"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja15"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja15"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja16"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja16"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja17"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja17"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja18"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja19"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja11"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/sienna"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja20"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja20"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja21"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/sienna"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja22"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja23"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja22"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja24"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja22"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja25"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja22"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja26"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja22"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja27"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja22"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja28"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja29"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja30"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja31"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja32"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja33"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja34"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja34"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja35"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja35"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja36"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja37"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja37"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja38"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja38"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja18"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja39"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja17"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/turquoise"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja40"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja16"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja41"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja17"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja42"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja41"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja16"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja43"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja43"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja16"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja44"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja41"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja15"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja45"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja15"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja46"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja46"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja15"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja47"/>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja14"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja48"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja14"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja49"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja49"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja14"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja50"/>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja13"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja51"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja13"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja52"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja52"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja13"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja53"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja54"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja54"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja55"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja56"/>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja54"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja57"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja57"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja58"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja58"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja59"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja33"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/caja19"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/dodgerblue"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja60"/>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja57"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja61"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja61"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/brown"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja62"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja62"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja63"/>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/caja54"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/caja12"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/caja64"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
