@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mario2">
         <activity
+            android:name=".Prueba"
+            android:exported="false" />
+        <activity
             android:name=".dibujo2"
             android:exported="false" />
         <activity

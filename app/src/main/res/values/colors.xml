@@ -143,9 +143,12 @@
     <item name="lightyellow" type="color">#ffffe0</item>
     <item name="snow" type="color">#fffafa</item>
     <item name="ivory" type="color">#fffff0</item>
+    <item name="transparent" type="color">#00ff001C</item>
+
 
     <integer-array name="EditColors">
 
+        <item>@color/transparent</item>
         <item>@color/black</item>
         <item>@color/navy</item>
         <item>@color/darkblue</item>

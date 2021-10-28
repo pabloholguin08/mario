@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dibujo2"
+    tools:context=".Prueba"
     android:background="@drawable/minecraft">
 
     <ImageButton
@@ -21,7 +21,6 @@
         app:layout_constraintVertical_bias="0.1"
 
         />
-
     <View
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -673,7 +672,6 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/caja50"/>
-
     <View
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -805,7 +803,6 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/caja60"/>
-
     <View
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -910,6 +907,5 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/caja68"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
