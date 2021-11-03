@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mario2">
         <activity
+            android:name=".descrip2"
+            android:exported="false" />
+        <activity
+            android:name=".descrip1"
+            android:exported="false" />
+        <activity
+            android:name=".sandia"
+            android:exported="false" />
+        <activity
+            android:name=".prueba2"
+            android:exported="false" />
+        <activity
             android:name=".Prueba"
             android:exported="false" />
         <activity

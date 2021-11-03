@@ -7,20 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
+public class prueba2 extends AppCompatActivity {
 
-    ImageButton boton;
+    ImageButton boton2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        boton=findViewById(R.id.boton);
-        boton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_prueba2);
+        boton2=findViewById(R.id.boton2);
+        boton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,prueba2.class);
+                Intent intent = new Intent(prueba2.this,MainActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }
