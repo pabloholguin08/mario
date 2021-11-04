@@ -28,7 +28,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        android:text="Soy valeria betancur granda tengo 17 años me voy a graduar este año como asistente en desarrollo de software y en la univercidad quiero estudiar medicina."/>
+        android:text="Soy valeria betancur granda tengo 17 años me voy a graduar este año como asistente en desarrollo de software y en la universidad quiero estudiar medicina."/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -37,21 +37,37 @@
         android:src="@drawable/jhoni"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
-
     <TextView
-        android:layout_width="180dp"
+        android:layout_width="200dp"
         android:layout_height="200dp"
+        android:id="@+id/text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        android:text="Soy jhonnathan ocampo 16 años me voy a graduar este año como asistente en desarrollo de software y en la univercidad quiero estudiar alguna ingenieria."/>
+        app:layout_constraintVertical_bias="0.6"
+        android:text="Soy Jhonnathan Ocampo tengo 16 años me voy a graduar este año como asistente en desarrollo de software y en la universidad quiero estudiar alguna ingenieria"
+        />
+    <ImageButton
+        android:id="@+id/boton3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+
+        android:background="@color/transparent"
+        android:src="@drawable/seta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

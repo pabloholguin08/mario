@@ -18,7 +18,7 @@ public class prueba2 extends AppCompatActivity {
         boton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(prueba2.this,MainActivity.class);
+                Intent intent = new Intent(prueba2.this,descrip1.class);
                 startActivity(intent);
             }
         });
